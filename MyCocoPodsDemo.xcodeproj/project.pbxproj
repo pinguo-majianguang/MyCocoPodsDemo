@@ -23,6 +23,8 @@
 		AE4184631987A313001E7B06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE4184611987A313001E7B06 /* InfoPlist.strings */; };
 		AE4184651987A313001E7B06 /* MyCocoPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4184641987A313001E7B06 /* MyCocoPodsDemoTests.m */; };
 		AE42DCAD204C41DB8797E7DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0AD1321EE54B1FBB11A77C /* libPods.a */; };
+		AEF09ED819889463006845A0 /* DevTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF09ED719889463006845A0 /* DevTestViewController.m */; };
+		AEF09EDB198897C0006845A0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF09EDA198897C0006845A0 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		AE4184601987A313001E7B06 /* MyCocoPodsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCocoPodsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AE4184621987A313001E7B06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE4184641987A313001E7B06 /* MyCocoPodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCocoPodsDemoTests.m; sourceTree = "<group>"; };
+		AEF09ED619889463006845A0 /* DevTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevTestViewController.h; sourceTree = "<group>"; };
+		AEF09ED719889463006845A0 /* DevTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevTestViewController.m; sourceTree = "<group>"; };
+		AEF09ED9198897C0006845A0 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AEF09EDA198897C0006845A0 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		BB0AD1321EE54B1FBB11A77C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +133,10 @@
 				AE41844F1987A313001E7B06 /* testViewController.m */,
 				AE4184511987A313001E7B06 /* Images.xcassets */,
 				AE4184401987A313001E7B06 /* Supporting Files */,
+				AEF09ED619889463006845A0 /* DevTestViewController.h */,
+				AEF09ED719889463006845A0 /* DevTestViewController.m */,
+				AEF09ED9198897C0006845A0 /* MasterViewController.h */,
+				AEF09EDA198897C0006845A0 /* MasterViewController.m */,
 			);
 			path = MyCocoPodsDemo;
 			sourceTree = "<group>";
@@ -325,7 +335,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF09ED819889463006845A0 /* DevTestViewController.m in Sources */,
 				AE4184501987A313001E7B06 /* testViewController.m in Sources */,
+				AEF09EDB198897C0006845A0 /* MasterViewController.m in Sources */,
 				AE41844A1987A313001E7B06 /* testAppDelegate.m in Sources */,
 				AE4184461987A313001E7B06 /* main.m in Sources */,
 			);
